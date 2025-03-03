@@ -1,0 +1,44 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+
+    margin: 0;
+    padding: 0;
+}
+
+.Site {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sketchContainer {
+    background-color: white;
+    flex: 1;
+}
+
+footer {
+    background-color: black;
+    color: white;
+
+    padding: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
