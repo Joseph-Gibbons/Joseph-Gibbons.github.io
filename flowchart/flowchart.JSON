@@ -1,0 +1,26 @@
+{
+    "Node1":{
+        "text":"Start",
+        "connects":["Node2","Node3","Node4"]
+    },
+    "Node2":{
+        "text":"2",
+        "connects":["five"]
+    },
+    "Node3":{
+        "text":"3",
+        "connects":null
+    },
+    "Node4":{
+        "text":"4",
+        "connects":["Node6"]
+    },
+    "Node5":{
+        "text":"5",
+        "connects":null
+    },
+    "Node6":{
+        "text":"6",
+        "connects":null
+    }
+}
